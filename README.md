@@ -1,45 +1,45 @@
-# Lidar ile Engellerden Kaçınma Projesi
+# Obstacle Avoidance Project with Lidar
 
-Bu proje, Robot Operating System (ROS) ve Gazebo simülasyon ortamını kullanarak lidar sensörü ile engellerden kaçınma yeteneği sağlayan bir robot projesidir.
+This project is a robot project that provides obstacle avoidance capability with lidar sensor using Robot Operating System (ROS) and Gazebo simulation environment.
 
-## Kurulum
+## Setup
 
-Projenin başarılı bir şekilde çalışabilmesi için aşağıdaki adımları izleyin:
+For the project to run successfully, follow these steps:
 
-1. ROS Melodic veya Noetic sürümünü [ROS resmi web sitesinden](http://wiki.ros.org/ROS/Installation) indirin ve yükleyin.
+1. Download and install ROS Melodic or Noetic version from [ROS official website](http://wiki.ros.org/ROS/Installation).
 
-2. Gazebo'nun yüklü olduğundan emin olun:
+2. Make sure Gazebo is installed:
 
-    ```bash
-    sudo apt-get install gazebo9
-    ```
+     ```bash
+     sudo apt-get install gazebo9
+     ```
 
-3. Bu depoyu klonlayın:
+3. Clone this repository:
 
-    ```bash
-    git clone https://github.com/Muhammetyilmaz7/Obstacle_Avoidance_With_ROS_and_Gazebo_Lidar.git
-    ```
-4. İndirdiğiniz kaynak kodun bir ROS'ta çalışma ortamı içinde olması gerektiğini unutmayın
+     ```bash
+     git clone https://github.com/Muhammetyilmaz7/Obstacle_Avoidance_With_ROS_and_Gazebo_Lidar.git
+     ```
+   
+4. Make sure that the source code you download is in a ROS runtime environment.
 
-5. Projenin kök dizininde aşağıdaki komutları çalıştırarak paketleri derleyin:
+5. Compile the packages by running the following commands in the root directory of the project:
 
-    ```bash
-    catkin_make
-    ```
-    
-6. Gazebo simülasyon ortamında TURTLEBOT3 olan dünyayı çalıştırın.
+     ```bash
+     catkin_make
+     ```
 
-7. Gazebo dünyasında robot geldikten sonra çalışma alanındaki kodu çalıştırın.
+6. Launch the world of TURTLEBOT3 in the Gazebo simulation environment.
 
-## Kullanım
+7. After the robot appears in the Gazebo world, run the code in the workspace.
 
-Proje başarıyla kurulduktan ve başlatıldıktan sonra, robotunuz lidar sensörüyle engellerden kaçınma yeteneği sergileyecek ve Gazebo simülasyon ortamında çalışacaktır. Kontroller ve parametreler hakkında daha fazla bilgi için kodu detaylıca inceleyin.
+## Use
 
-## Katkıda Bulunma
+Once the project is successfully installed and launched, your robot will demonstrate obstacle avoidance ability with its lidar sensor and operate in the Gazebo simulation environment. Take a detailed look at the code for more information about controls and parameters.
 
-Eğer bu projeye katkıda bulunmak istiyorsanız, lütfen bir konu açarak veya bir çekme isteği göndererek iletişime geçin.
+## Contribute
 
-## Lisans
+If you would like to contribute to this project, please get in touch by opening a topic or submitting a pull request.
 
-Bu proje MIT Lisansı altında lisanslanmıştır - [LICENSE](LICENSE) dosyasına bakın.
+## Licence
 
+This project is licensed under the MIT License - see [LICENSE].
