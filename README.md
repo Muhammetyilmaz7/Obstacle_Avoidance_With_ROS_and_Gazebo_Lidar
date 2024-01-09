@@ -27,7 +27,7 @@ Projenin başarılı bir şekilde çalışabilmesi için aşağıdaki adımları
     catkin_make
     ```
     
-6. Gazebo simülasyon ortamında robotu başlatın
+6. Gazebo simülasyon ortamında TURTLEBOT3 olan dünyayı çalıştırın.
 
 7. Gazebo dünyasında robot geldikten sonra çalışma alanındaki kodu çalıştırın.
 
